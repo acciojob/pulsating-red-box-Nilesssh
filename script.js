@@ -5,11 +5,11 @@ box.style.width = "100px"
 box.style.height = "100px"
 box.style.backgroundColor = "red"
 
-box.style.animation = "chetan 1s linear infinite";
+box.style.animation = "pulse 1s ease-in-out infinite";
 
 let style = document.createElement("style");
 
-style.innerHTML = `@keyframes chetan {
+style.innerHTML = `@keyframes pulse {
       0% {
         transform: scale(1);
       }
