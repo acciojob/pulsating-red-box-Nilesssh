@@ -5,7 +5,7 @@ box.style.width = "100px"
 box.style.height = "100px"
 box.style.backgroundColor = "red"
 
-box.style.animation = " 1s linear infinite";
+box.style.animation = "chetan 1s linear infinite";
 
 let style = document.createElement("style");
 
